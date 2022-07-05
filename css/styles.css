@@ -1,0 +1,35 @@
+/*This makes the color of the body by the value indicated*/
+/*Indicate the tag of the element you want to change*/
+/*In css when applying attributes to your tags inline is the priority then internal then lastly external*/
+/*When debugging your website use chrome developer tools by right clicking then select inspect*/
+body {
+  background-color: #EFFFFD;
+}
+
+/*
+This makes the gray dotted line
+background-color: can be ommited or if you  want to be specific none
+border-style: can change the style of the border: it can be changed by 1 value so all of the sides of the border is uniformed
+2 values can be specified to change the style of the border: 1st value is top and bottom while the 2nd value is left and right
+3 values can be specified: 1st value is top, 2nd value is left and right then the 3rd value is bottom
+4 values can also be specified: 1st value is top, 2nd value is right, 3rd value is bottom and 4th value is left
+
+border-color: changes the color of the border
+width: makes it so that the whole width of the element changes depending on the value if it is a whole number or by percentage
+border-width: determines how big the borders will be
+*/
+
+hr {
+  border-style: dotted none none;
+  border-color: gray;
+  border-width: 5px;
+  width: 3%;
+}
+
+h1 {
+  color: #66BFBF;
+}
+
+h2 {
+  color: #66BFBF;
+}
